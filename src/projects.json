@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Portafolio",
+        "skills": "VueJS",
+        "description": "Portafolio web",
+        "link": null,
+        "github": "https://github.com/JulioCaceres10?tab=repositories",
+        "img": "https://i.ibb.co/F5Vvg0K/Portafolio.png"
+    },
+    {
+        "name": "Inicio Sesion ",
+        "skills": "NodeJS - VueJS - ExpressJS",
+        "description": "login API REST JWT, consumido con Vuejs. ",
+        "link": "https://api-jwt-6gn7.onrender.com/",
+        "github": "https://github.com/JulioCaceres10/jwt-api-login",
+        "img": "https://i.ibb.co/yq9PV6s/Inicio-sesion.png"
+    }
+]
