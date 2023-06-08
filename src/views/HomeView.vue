@@ -48,4 +48,7 @@ main {
   height: 100%;
   background: #242424;
 }
+section {
+  scroll-margin-top: 90px ;
+}
 </style>

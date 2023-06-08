@@ -1,9 +1,8 @@
 <template>
     <v-container style="margin-top: 50px;">
-        <section id="portafolio" class="seccion">
-            <v-row>
-                <v-col cols="12" sm="12" md="7">
-
+        <v-row>
+            <v-col cols="12" sm="12" md="7">
+                <section id="portafolio" class="seccion">
                     <div class="contentProject">
                         <v-icon class="iconGit" icon="mdi-github"></v-icon>
                         <div class="content-portfolio">
@@ -19,37 +18,37 @@
                         </div>
 
 
-
                     </div>
+                </section>
 
-                </v-col>
-                <v-col cols="12" sm="12" md="5">
-                    <div class="project">
-                        <div v-for="item in projects" :key="item" class="card">
-                            <div class="imgBg">
-                                <v-img class="img" :src="item.img" cover></v-img>
-                                <div class="content">
-                                    <div class="box1">
-                                        <div>
-                                            <h4 class="title">{{ item.name }}</h4>
-                                            <p class="subtitleSkill">{{ item.skills }}</p>
-                                            <p class="subtitle">{{ item.description }}</p>
-                                        </div>
+            </v-col>
+            <v-col cols="12" sm="12" md="5">
+                <div class="project">
+                    <div v-for="item in projects" :key="item" class="card">
+                        <div class="imgBg">
+                            <v-img class="img" :src="item.img" cover></v-img>
+                            <div class="content">
+                                <div class="box1">
+                                    <div>
+                                        <h4 class="title">{{ item.name }}</h4>
+                                        <p class="subtitleSkill">{{ item.skills }}</p>
+                                        <p class="subtitle">{{ item.description }}</p>
                                     </div>
-                                    <div class="box2">
-                                        <v-btn class="btn" icon="mdi-github" variant="tonal" color="purple"
-                                            :href="item.github" target="_blank"></v-btn>
-                                        <v-btn v-if="item.link" class="btn" icon="mdi-open-in-new" variant="tonal"
-                                            color="green" :href="item.link" target="_blank"></v-btn>
-                                    </div>
+                                </div>
+                                <div class="box2">
+                                    <v-btn class="btn" icon="mdi-github" variant="tonal" color="purple" :href="item.github"
+                                        target="_blank"></v-btn>
+                                    <v-btn v-if="item.link" class="btn" icon="mdi-open-in-new" variant="tonal" color="green"
+                                        :href="item.link" target="_blank"></v-btn>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                </v-col>
-            </v-row>
-        </section>
+            </v-col>
+        </v-row>
+
 
 
 
@@ -226,4 +225,5 @@ export default ({
         font-size: 1px;
         opacity: 0;
     }
-}</style>
+}
+</style>

@@ -37,9 +37,8 @@ export default {
             
             secciones.forEach(seccion => observer.observe(seccion))
 
-        },
-
-
+        }
+        
     },
     getters: {
 

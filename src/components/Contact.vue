@@ -18,7 +18,7 @@
             <p class=" text-subtitle-1 text-center font-weight-medium font-italic"
                 style="color:#646464; margin-bottom: 30px; ">Cualquier pregunta o comentario, Solo escríbanos un
                 mensaje!</p>
-        
+        </section>
         <v-row>
             <v-col cols="12" sm="12" md="8" style="padding: 30px; background: #ffffff1d; ">
                 <div style="display: flex; justify-content: space-between;">
@@ -49,7 +49,7 @@
                     </v-row>
                     <v-row>
                         <v-col>
-                            <v-textarea class="text-grey-lighten-3" color="white" label="Mensaje" name="message"
+                            <v-textarea class="text-grey-lighten-3" color="white" label="Mensaje *" name="message"
                                 v-model="message.value.value" :error-messages="message.errorMessage.value"
                                 variant="outlined"></v-textarea>
                         </v-col>
@@ -83,7 +83,7 @@
                 </div>
             </v-col>
         </v-row>
-    </section>
+    
     </v-container>
 </template>
 
