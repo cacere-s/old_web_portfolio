@@ -11,6 +11,10 @@ export default {
             let navbar = document.querySelector('.navbar');
             navbar.classList.toggle('open') 
           },
+        menuNavbar() {
+            let navbar = document.querySelector('.navbar');
+            navbar.classList.remove('open') 
+        },
         scrollNavigation (){
             const secciones = document.querySelectorAll('.seccion')
             const menuItems = document.querySelectorAll('.menu-item');
