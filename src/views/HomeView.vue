@@ -49,6 +49,6 @@ main {
   background: #242424;
 }
 section {
-  scroll-margin-top: 90px ;
+  scroll-margin-top: 70px ;
 }
 </style>
