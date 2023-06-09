@@ -8,13 +8,13 @@
         <div class="group">
             <ul class="navigation">
                 <li >
-                    <a class="menu-item" data-url="inicio" href="#inicio">Inicio</a>
+                    <a class="menu-item" data-url="inicio" @click="menuNavbar" href="#inicio">Inicio</a>
                 </li>
                 <li>
-                    <a class="menu-item" data-url="portafolio" href="#portafolio">Portafolio</a>
+                    <a class="menu-item" data-url="portafolio"  @click="menuNavbar" href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                    <a class="menu-item" data-url="contacto" href="#contacto">Contacto</a>
+                    <a class="menu-item" data-url="contacto" @click="menuNavbar" href="#contacto">Contacto</a>
                 </li>
             </ul>
             <v-icon class="menuToggle" color="white" icon="mdi-menu" @click="menuToggle"></v-icon>
@@ -35,7 +35,7 @@ export default {
     },
 
     methods: {
-        ...mapActions('navbar', ['menuToggle', 'scrollNavigation'])
+        ...mapActions('navbar', ['menuToggle', 'scrollNavigation', 'menuNavbar'])
     },
 
     mounted(){
