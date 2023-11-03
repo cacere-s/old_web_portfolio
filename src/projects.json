@@ -8,11 +8,19 @@
         "img": "https://i.ibb.co/F5Vvg0K/Portafolio.png"
     },
     {
-        "name": "Rootshare ",
-        "skills": "NodeJS - VueJS - ExpressJS - SwiperJS",
+        "name": "Rootshare",
+        "skills": "NodeJS - VueJS - ExpressJS - SwiperJS - JWT",
         "description": "Aplicacion web, bienes raices ",
-        "link": "https://rootshare.onrender.com",
-        "github": "https://github.com/JulioCaceres10/Rootshare",
+        "link": null,
+        "github": "https://github.com/JulioCaceres10/App-Rootshare",
         "img": "https://res.cloudinary.com/dgaj83nvk/image/upload/v1696832680/Portafolio/hbdalyckvapnwcmsa0zm.png"
+    }
+    {
+        "name": "Dracker",
+        "skills": "NodeJS - VueJS - ExpressJS",
+        "description": "Aplicacion web, Notas ",
+        "link": null,
+        "github": "https://github.com/JulioCaceres10/App-Dracker",
+        "img": "https://res.cloudinary.com/dgaj83nvk/image/upload/v1698989766/Portafolio/carkywmvzibnxa4gmzva.png"
     }
 ]
